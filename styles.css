@@ -1,0 +1,44 @@
+.root {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-new {
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 60vh;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: pink;
+}
+
+.row {
+    display: flex;
+    flex: auto;
+}
+
+.block {
+    flex: auto;
+    object-fit: cover;
+    margin: 1px;
+    border-color: black;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.tools {
+    position: absolute;
+    width: 200px;
+    right: 15vw;
+    display: flex;
+    flex-direction: column;
+}
